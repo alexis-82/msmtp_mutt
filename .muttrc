@@ -1,0 +1,27 @@
+set sendmail="/usr/bin/msmtp"
+set from=vostraemail
+set realname="Nome"
+set use_from=yes
+set imap_user="vostraemail"
+set imap_pass=vostrapassword
+set smtp_url="smtps://vostrouser@smtp.gmail.com:465/"
+set smtp_pass=vostrapassword
+set spoolfile=imaps://vostrouser@imap.gmail.com:993/INBOX 
+set folder="imaps://vostrouser@imap.gmail.com:993"
+set record="+[Gmail]/Sent Mail"
+set postponed="+[Gmail]/Drafts"
+set header_cache="~/.mutt/cache/headers"
+set message_cachedir="~/.mutt/cache/bodies"
+set ssl_starttls=yes
+set ssl_force_tls=yes
+
+# 
+# Configurazione per le notifiche e la priorità
+# ---------------------------------------------
+# set hdrs=yes
+# set dsn_return=hdrs
+# set dns_notify="failure,delay,success"
+# my_hdr Return-Receipt-To: vostraemail
+# my_hdr X-Priority: 1
+# my_hdr Importance: high
+#
